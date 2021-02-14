@@ -5,7 +5,7 @@ body {
     background-color: #222
 }
 
-.container {
+.myName {
     Width: 80%;
     margin: 0 auto;
     
@@ -77,16 +77,80 @@ nav a:hover::before {
     width: 100%;
 }
 
+.aboutMe {
+    margin: 0px 50px 0 50px;
+    color: #fff;
+}
+
 .sectionHeader {
     margin: 50px auto;
     font-size: 40px;
     font-weight: bold;
     color: white
+
 }
 
-p {
-    color:white;
-    Width: 80%;
-    margin: 0 auto;
+.workHeader {
+    margin: 50px 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white
+}
 
+.row {
+    margin: 0 40px 0 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card {
+    width:30%;
+    border:5px solid #1794a5;
+    border-radius:20px;
+    margin-bottom:50px;
+    transition:30ms;
+}
+
+.cardHeader {
+    margin-left: 10px;
+    padding:10px 10px;
+    
+    color:#fff;
+}
+
+.cardBody {
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.cardBody .btn {
+    display:block;
+    color:#444;
+    text-align:center;
+    font-weight: bold;
+    background:#1794a5;
+    margin-top:30px;
+    text-decoration: none;
+    padding: 10px 5px;
+    border:3px solid #fff;
+    border-radius:5px;
+}
+
+.cardBody .btn:hover{
+    color:#000;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px #fff;
+}
+
+/* Responsive media queries */
+
+@media screen and (max-width:1000px) {
+    .card{
+        width: 40%;
+    }
 }
