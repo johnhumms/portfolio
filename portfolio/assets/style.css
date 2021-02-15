@@ -111,12 +111,13 @@ nav a:hover::before {
     border-radius:20px;
     margin-bottom:50px;
     transition:30ms;
+    z-index: 1;
+    background-image: url("../assets/images/background.jpg");
 }
 
 .cardHeader {
     margin-left: 10px;
     padding:10px 10px;
-    
     color:#fff;
 }
 
