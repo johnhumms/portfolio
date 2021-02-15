@@ -30,13 +30,13 @@ nav {
     float: right;
 }
 
-nav ul {
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-nav li {
+li {
     display: inline-block;
     margin-left: 100px;
     padding-top: 35px;
@@ -46,7 +46,7 @@ nav li {
     position: relative; 
 }
 
-nav a {
+a {
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
@@ -155,6 +155,30 @@ nav a:hover::before {
 .card:hover{
     transform: scale(1.05);
     box-shadow: 0 0 40px -10px #fff;
+}
+
+.contact {
+    display: block;
+    background-color: #1794a5;
+}
+
+.contactHeader{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding:10px 10px;
+    color:#fff;
+}
+
+.contact ul {
+    padding:15px;
+    margin: 50px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.contact a:hover{
+    color: #000;
 }
 
 /* Responsive media queries */
